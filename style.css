@@ -194,9 +194,21 @@ img {
 }
 
 .service-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #b89b69;
-    font-size: 35px;
-    margin-bottom: 15px;
+    background: #f3eee5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-icon svg {
+    width: 30px;
+    height: 30px;
+}
 }
 
 .service-card h3 {
